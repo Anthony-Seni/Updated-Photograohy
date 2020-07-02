@@ -39,6 +39,7 @@ fa-home .btn-default {
 .btn-def {
   background-color: #019960;
   color: white;
+  margin-bottom: 20px;
 }
 .btn-default:hover {
   color: white;
@@ -52,7 +53,8 @@ fa-home .btn-default {
   background-position: center;
   background-repeat: no-repeat;
   height: 190px;
-  width: 200px;
+  width: 100%;
+  padding-left: 20px;
 }
 .image9 {
   background-image: url(../images/image2.jpg);
@@ -60,7 +62,7 @@ fa-home .btn-default {
   background-position: center;
   background-repeat: no-repeat;
   height: 190px;
-  width: 200px;
+  width: 100%;
 }
 .image10 {
   background-image: url(../images/image3.jpg);
@@ -68,7 +70,7 @@ fa-home .btn-default {
   background-position: center;
   background-repeat: no-repeat;
   height: 190px;
-  width: 200px;
+  width: 100%;
 }
 .image11 {
   background-image: url(../images/hatgirl.jpg);
@@ -76,7 +78,7 @@ fa-home .btn-default {
   background-position: center;
   background-repeat: no-repeat;
   height: 190px;
-  width: 200px;
+  width: 100;
 }
 .carousel-item {
   height: 100vh;
@@ -103,10 +105,13 @@ fa-home .btn-default {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 300px;
-  width: 550px;
-  margin-left: -80px;
+  height: 100%;
+  width: 100%;
   border-radius: 20px;
+  margin-bottom: 84px;
+  margin-right: 400px;
+
+  object-fit: contain;
 }
 
 .box {
@@ -137,7 +142,4 @@ fa-home .btn-default {
   list-style: none;
   text-align: left;
   font-size: 25px;
-}
-
-@media (min-width: 768px) {
 }
